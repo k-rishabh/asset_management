@@ -33,7 +33,9 @@ const Chart = ({data}) => {
             else if(element.category === "Food"){
                 newData[2].value = newData[2].value + element.amount;
                 console.log(`Food ${newData[2].value}`);
-            }
+            } 
+
+            //need to finish for all and add labels to pie chart
         });
     }
 
